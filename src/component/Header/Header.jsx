@@ -9,6 +9,7 @@ function Header() {
     <div>
         <Link to="/">Home</Link>
         <Link to="/service">Service</Link>
+        <Link to="/category">Category</Link>
         {timer}
     </div>
   )

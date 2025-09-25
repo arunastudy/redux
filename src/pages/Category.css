@@ -1,0 +1,22 @@
+.category-list {
+    width: 300px;
+    height: 380px;
+    border: 1px inset black;
+    padding: 15px;
+    gap: 10px;
+}
+.category-list img {
+    width: 270px;
+}
+.category-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 70px;
+}
+.category-list p {
+  display: -webkit-box;       /* включаем flex-контейнер */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;      /* показывать только 2 строки */
+  overflow: hidden;           /* скрыть лишнее */
+}
